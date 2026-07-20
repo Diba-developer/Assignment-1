@@ -1,0 +1,213 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+div.navbar ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.navbar ul li a{
+    display: inline-block;
+    padding:10px 20px;
+    text-decoration: none;
+    color:black;
+}
+
+div.registerbutton a{
+    display: inline-block;
+    padding: 10px 35px;
+    text-decoration: none;
+    color:white;
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+section.banner{ 
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),
+                url("./assets/banner.jpg");
+    size: cover;
+    color: white;
+    text-align: center;
+}
+
+.banner-text-area{
+    padding: 100px 20px ;
+    max-width: 680px;
+    margin: auto;
+}
+.banner-text-area h2{
+    font-size:58px;
+}
+
+section.banner .registerbutton a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:20px 35px;
+}
+
+section.speakers .speaker-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+section.speakers .speaker-row .card{
+    width:49%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section.speakers .speaker-row img{
+    width: 100%;
+}
+
+section.speakers .speaker-row p{
+    margin: 5px 20px;
+}
+
+section.speakers .speaker-row p:last-child{
+    margin-bottom: 15px;
+}
+section.speakers .speaker-row p.technology{
+    font-size: 11px;
+    color: steelblue;
+    font-weight: bold;
+}
+
+section.speakers .speaker-row p.name{
+    color: black;
+    font-weight: bold;
+    font-size:18px;
+}
+section.speakers .speaker-row p.description{
+    font-size: 11px;
+    color: gray;
+}
+section.speakers h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 50px auto;
+}
+section.pricingtable h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pricecap{
+    color: gray;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.pricingrow{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 5rem;
+}
+
+.pricingrow .card{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 32%;
+    margin-right: 20px;
+}
+.pricingrow .card ul{
+    padding:5px 10px;
+}
+
+.pricingrow .card .title{
+    color: gray;
+    text-transform: uppercase
+}
+.pricingrow .card .subtitle{
+    color: gray;
+}
+.pricingrow .card .price{
+    font-weight: bold;
+    font-size: 46px;
+    margin:0;
+}
+.pricingrow .btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.pricingrow .btn-white{
+    background-color: white;
+    color: steelblue;
+    border:1px solid steelblue;
+}
+.pricingrow .btn-blue{
+    background-color:steelblue;
+    color: white;
+}
+hr{
+    color: rgba(0, 0, 0, 0.1);
+}
+.pricingrow .card ul{
+    padding: 20px;
+}
+
+.pricingrow .card ul li{
+    padding: 7px 5px;
+}
+.pricingrow .card ul li::marker{
+    color:steelblue
+}
+
+.pricingrow .team{
+    background-color: #f7f7f7;
+}
+
+.pricingrow .pro{
+    background-color: #2b2929;
+}
+
+.pricingrow .pro ul{
+    color: #f7f7f7;
+}
+.pricingrow .pro .price{
+    color: white;
+}
+.pricingrow .pro .title{
+    color: steelblue;
+}
+footer{
+    margin-top: 50px;
+    background-color: #2b2929;
+    color: #f7f7f7;
+}
+.footer-logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+.footer-logo-area ul{
+    list-style: none;
+    display: flex;
+
+}
+.footer-logo-area li{
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
