@@ -58,42 +58,42 @@ section.banner .registerbutton a{
     padding:20px 35px;
 }
 
-section.speakers .speaker-row{
+section.speakers .speaker2in1{
     display: flex;
     justify-content: space-between;
     padding: 1rem 5rem;
 }
 
-section.speakers .speaker-row .card{
+section.speakers .speaker2in1 .card{
     width:49%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
 }
 
-section.speakers .speaker-row img{
+section.speakers .speaker2in1 img{
     width: 100%;
 }
 
-section.speakers .speaker-row p{
+section.speakers .speaker2in1 p{
     margin: 5px 20px;
 }
 
-section.speakers .speaker-row p:last-child{
+section.speakers .speaker2in1 p:last-child{
     margin-bottom: 15px;
 }
-section.speakers .speaker-row p.technology{
+section.speakers .speaker2in1 p.technology{
     font-size: 11px;
     color: steelblue;
     font-weight: bold;
 }
 
-section.speakers .speaker-row p.name{
+section.speakers .speaker2in1 p.name{
     color: black;
     font-weight: bold;
     font-size:18px;
 }
-section.speakers .speaker-row p.description{
+section.speakers .speaker2in1 p.description{
     font-size: 11px;
     color: gray;
 }
