@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    font-family: "Noto Sans", sans-serif;
 }
 
 header{
@@ -195,9 +196,10 @@ footer{
 }
 .footer-logo-area{
     display: flex;
-    justify-content: space-between;
+    justify-content: Center;
     align-items: center;
-    padding: 2rem 5rem;
+    padding: 2rem 25rem;
+
 }
 .footer-logo-area ul{
     list-style: none;
