@@ -112,80 +112,80 @@ section.pricingtable h2{
     margin-bottom: 50px;
     text-align: center;
 }
-.pricingrow{
+.pricing-row{
     display: flex;
     justify-content: center;
     padding: 1rem 5rem;
 }
 
-.pricingrow .card{
+.pricing-row .card{
     border:1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 30px;
     width: 32%;
     margin-right: 20px;
 }
-.pricingrow .card ul{
+.pricing-row .card ul{
     padding:5px 10px;
 }
 
-.pricingrow .card .title{
+.pricing-row .card .title{
     color: gray;
     text-transform: uppercase
 }
-.pricingrow .card .subtitle{
+.pricing-row .card .subtitle{
     color: gray;
 }
-.pricingrow .card .price{
+.pricing-row .card .price{
     font-weight: bold;
     font-size: 46px;
     margin:0;
 }
-.pricingrow .btn{
+.pricing-row .btn{
     display: block;
     text-align: center;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 8px;
 }
-.pricingrow .btn-white{
+.pricing-row .btn-white{
     background-color: white;
     color: steelblue;
     border:1px solid steelblue;
 }
-.pricingrow .btn-blue{
+.pricing-row .btn-blue{
     background-color:steelblue;
     color: white;
 }
 hr{
     color: rgba(0, 0, 0, 0.1);
 }
-.pricingrow .card ul{
+.pricing-row .card ul{
     padding: 20px;
 }
 
-.pricingrow .card ul li{
+.pricing-row .card ul li{
     padding: 7px 5px;
 }
-.pricingrow .card ul li::marker{
+.pricing-row .card ul li::marker{
     color:steelblue
 }
 
-.pricingrow .team{
+.pricing-row .team{
     background-color: #f7f7f7;
 }
 
-.pricingrow .pro{
+.pricing-row .pro{
     background-color: #2b2929;
 }
 
-.pricingrow .pro ul{
+.pricing-row .pro ul{
     color: #f7f7f7;
 }
-.pricingrow .pro .price{
+.pricing-row .pro .price{
     color: white;
 }
-.pricingrow .pro .title{
+.pricing-row .pro .title{
     color: steelblue;
 }
 footer{
